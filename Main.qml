@@ -1,0 +1,66 @@
+import QtQuick
+import QtQuick.Controls
+import QtQuick.Layouts
+
+ApplicationWindow {
+    title: "Device Monitor"
+    visible: true
+    id: mainWindow
+    width: Screen.width
+    height: Screen.height
+
+    StackView {
+        id: stackView
+        anchors.fill: parent
+        initialItem: mainPage
+    }
+
+    Component {
+        id: mainPage
+
+        Item {
+            anchors.fill: parent
+
+            Rectangle {
+                id: header
+                width: parent.width
+                height: 60
+                color: "white"
+
+                RowLayout {
+                    id: headerLayout
+                    anchors.fill: parent
+                    anchors.margins: 10
+
+
+                    Image {
+                        source: "qrc:/logo2.bmp"
+                        width: 40
+                        height: 40
+                        Layout.alignment: Qt.AlignVCenter
+                    }
+
+
+                    Item {
+                        Layout.fillWidth: true
+                    }
+
+
+                    Text {
+                        text: "HemeSens"
+                        font.pointSize: 24
+                        Layout.alignment: Qt.AlignVCenter
+                        horizontalAlignment: Text.AlignHCenter
+                    }
+
+
+                    Item {
+                        Layout.fillWidth: true
+                    }
+
+
+                }
+            }
+        }
+    }
+}
