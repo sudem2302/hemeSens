@@ -11,7 +11,7 @@ Many elderly people have difficulty remembering or writing down their blood suga
 - The user measures blood sugar with a glucose device
 - The measured value is detected by the application
 - The app saves:
- - Blood sugar value
+   - Blood sugar value
    - Measurement date
    - Measurement time
    -  All records can be viewed day by day
