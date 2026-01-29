@@ -14,4 +14,35 @@ Many elderly people have difficulty remembering or writing down their blood suga
    - Blood sugar value
    - Measurement date
    - Measurement time
-   -  All records can be viewed day by day
+-  All records can be viewed day by day
+
+## Features
+
+- Simple and clean interface
+- Easy to use for elderly users
+- Automatic date & time recording
+- Clear display of measurements
+- Mobile-friendly design
+
+## Technologies Used
+
+- QtQml
+- Qt Quick Controls
+- StackView navigation
+
+## UI Design
+
+- Header with application logo
+- Application name: HemeSens
+- Full-screen responsive layout
+- Minimal and readable design
+
+## Target Users
+
+- Elderly people
+- Diabetes patients
+- Anyone who wants to track blood sugar values easily
+
+## Project Status
+
+- This project is under development and focuses on usability, simplicity, and accessibility.
